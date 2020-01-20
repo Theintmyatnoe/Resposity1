@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorAccent"
+    android:weightSum="4">
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_decrease"
+        android:drawableLeft="@drawable/ic_keyboard_arrow_left_black_24dp"
+        android:background="@color/colorAccent"
+        android:layout_gravity="left"
+        android:layout_weight="1"
+        android:textColor="#ffffff"
+        />
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.AppCompat.Button.Borderless"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_logout"
+        android:text="Logout"
+        app:icon="@drawable/ic_exit_to_app_black_24dp"
+        android:textSize="10dp"
+        android:textColor="#ffffff"
+        app:cornerRadius="8dp"
+        app:rippleColor="#33AAAAAA"
+        app:strokeColor="#ffffff"
+        app:strokeWidth="2dp" />
+
+    <TextView
+        android:layout_marginLeft="10dp"
+        android:layout_width="wrap_content"
+        android:id="@+id/mydate"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:textAlignment="center"
+        android:textSize="22dp"
+        android:textColor="#ffffff"
+        android:text="Mydate"/>
+
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="wrap_content"
+        android:id="@+id/btn_increase"
+        android:layout_weight="1"
+        android:drawableRight="@drawable/ic_keyboard_arrow_right_black_24dp"
+        android:background="@color/colorAccent"
+        />
+
+</LinearLayout>

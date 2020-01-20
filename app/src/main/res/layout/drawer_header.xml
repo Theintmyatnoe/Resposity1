@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    android:background="@color/colorAccent">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:padding="8dp"
+        android:background="@drawable/shape"
+        android:id="@+id/my_profile_image"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_account_circle_black_24dp" />
+
+    <TextView
+        style="@style/TextAppearance.AppCompat.Subhead"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_margin="16dp"
+        android:id="@+id/login_email"
+        android:textColor="@android:color/white" />
+
+</FrameLayout>
